@@ -19,12 +19,14 @@ declare module 'nuxt/schema' {
       cdnURL: string,
    },
 
+   appKey: string,
+
    nitro: {
       envPrefix: string,
    },
   }
   interface PublicRuntimeConfig {
-
+   baseUrl: string,
   }
 }
 declare module 'vue' {
