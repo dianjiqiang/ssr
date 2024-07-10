@@ -17,6 +17,10 @@ if (typeof window === 'object') {
   // 运行在client端
 }
 
+console.log('--------------');
+console.log(process.env);
+console.log('--------------');
+
 // 1. 获取运行时配置
 const runtimeConfig = useRuntimeConfig()
 if (import.meta.server) {

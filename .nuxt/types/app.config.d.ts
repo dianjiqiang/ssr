@@ -4,6 +4,10 @@ import type { Defu } from 'defu'
 
 
 declare const inlineConfig = {
+  "title": "Hello Next3 HYKJ",
+  "theme": {
+    "primary": "blue"
+  },
   "nuxt": {}
 }
 type ResolvedAppConfig = Defu<typeof inlineConfig, []>

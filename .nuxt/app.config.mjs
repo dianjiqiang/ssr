@@ -3,6 +3,10 @@ import { updateAppConfig } from '#app/config'
 import { defuFn } from 'defu'
 
 const inlineConfig = {
+  "title": "Hello Next3 HYKJ",
+  "theme": {
+    "primary": "blue"
+  },
   "nuxt": {}
 }
 

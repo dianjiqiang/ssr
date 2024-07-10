@@ -68,6 +68,10 @@ function _expandFromEnv(value) {
 }
 
 const inlineAppConfig = {
+  "title": "Hello Next3 HYKJ",
+  "theme": {
+    "primary": "blue"
+  },
   "nuxt": {}
 };
 
@@ -1084,7 +1088,7 @@ const unheadPlugins = true ? [CapoPlugin({ track: true })] : [];
 
 const renderSSRHeadOptions = {};
 
-const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1"},{"charset":"utf-8"}],"link":[],"style":[],"script":[],"noscript":[]};
+const appHead = {"meta":[{"name":"viewport","content":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"},{"charset":"UTF-8"},{"name":"keywords","content":"关键词"},{"name":"description","content":"页面描述"}],"link":[{"rel":"shortcut icon","href":"favicon.icon","type":"image/x-icon"}],"style":[{"children":"body{ color: red }"}],"script":[],"noscript":[],"title":"HYKJ","charset":"UTF-8","viewport":"width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"};
 
 const appRootTag = "div";
 
